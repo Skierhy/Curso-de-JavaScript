@@ -12,6 +12,7 @@ body {
 	padding: 2rem;
 	font-size: 1.5rem;
 	font-weight: bold;
+	width: 100%;
 }
 
 .carta {
@@ -24,4 +25,24 @@ body {
 #Computadora-cartas,
 #jugador-cartas {
 	height: 18rem;
+}
+
+.perdiste {
+	/* color rojo */
+	background-color: #c0392b;
+	color: white;
+	text-align: center;
+	padding: 0.5rem;
+	font-size: 1.5rem;
+	margin: 1rem 5rem;
+}
+
+.ganaste {
+	/* color verde */
+	background-color: #27ae60;
+}
+
+.empate {
+	/* color amarillo */
+	background-color: #f1c40f;
 }
