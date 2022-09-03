@@ -1,2 +1,3 @@
 # Ignore artifacts:
-02-blackjack\assets\js\library\*.js
+/02-blackjack/assets/js/library/underscore-min.js
+02-blackjack/assets/js/juego-min.js
