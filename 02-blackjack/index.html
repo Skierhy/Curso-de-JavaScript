@@ -24,8 +24,12 @@
 				<button class="btn btn-primary" id="btnNuevo">
 					Nuevo Juego
 				</button>
-				<button class="btn btn-info" id="btnPedir">Pedir Carta</button>
-				<button class="btn btn-danger" id="btnDetener">Detener</button>
+				<button class="btn btn-info" id="btnPedir" disabled>
+					Pedir Carta
+				</button>
+				<button class="btn btn-danger" id="btnDetener" disabled>
+					Detener
+				</button>
 			</div>
 		</div>
 		<div id="mensaje"></div>
@@ -33,7 +37,7 @@
 		<div class="row container">
 			<div class="col">
 				<h1>Jugador 1 - <small>0</small></h1>
-				<div id="jugador-cartas">
+				<div id="jugador-cartas" class="divCartas">
 					<!-- <img
 						src="./assets/cartas/10C.png"
 						alt="carta"
@@ -48,7 +52,7 @@
 		<div class="row container mt-5">
 			<div class="col">
 				<h1>Computadora - <small>0</small></h1>
-				<div id="Computadora-cartas">
+				<div id="Computadora-cartas" class="divCartas">
 					<!-- <img
 						src="./assets/cartas/2C.png"
 						alt="carta"
@@ -59,6 +63,9 @@
 		</div>
 		<!-- fin IA -->
 		<script src="assets/js/library/underscore-min.js"></script>
-		<script src="assets/js/juego.js"></script>
+		<script src="assets/js/juego-min.js"></script>
+		<script>
+			miModulo.nuevoJuego();
+		</script>
 	</body>
 </html>
