@@ -8,3 +8,6 @@ Este repositorio sera todo el código escrito en el curso
 
 Para usar este repositorio, deberán ejecutar el comando de npm en la carpeta 03-webpack-inicial
 `npm install`
+
+para crear los archivos de producción es:
+`npm run build`
