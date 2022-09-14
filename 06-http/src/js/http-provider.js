@@ -20,8 +20,8 @@ const obtenerUsuario = async () => {
 	try {
 		const respuesta = await fetch(urlUsuario);
 		if (!respuesta.ok) throw 'No se pudo realizar la petición';
-		const data = await respuesta.json();
-		console.log(data);
+		const { data: usuario } = await respuesta.json();
+		return usuario;
 	} catch (error) {
 		throw error;
 	}
